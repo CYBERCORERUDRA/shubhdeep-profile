@@ -39,7 +39,6 @@
             backdrop-filter: blur(10px);
         }
 
-        /* HERO */
         .hero {
             text-align: center;
             padding: 60px 25px;
@@ -69,7 +68,6 @@
             font-size: 25px;
         }
 
-        /* INFORMATION GRID */
         .info {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -97,22 +95,19 @@
             font-size: 16px;
         }
 
-        /* DREAM SECTION */
+        /* DREAM */
         .dream-box {
             margin-top: 18px;
             padding: 24px 20px;
             border-radius: 16px;
             text-align: center;
-
             background:
                 linear-gradient(
                     135deg,
                     rgba(127, 199, 255, 0.14),
                     rgba(185, 156, 255, 0.14)
                 );
-
             border: 1px solid rgba(127, 199, 255, 0.3);
-
             box-shadow:
                 0 8px 25px rgba(0, 0, 0, 0.2),
                 inset 0 0 25px rgba(127, 199, 255, 0.03);
@@ -163,6 +158,17 @@
             margin-top: 8px;
         }
 
+        /* FAVORITE GAME */
+        .game {
+            text-align: center;
+        }
+
+        .game-name {
+            font-size: 22px;
+            color: #7cffb2;
+            margin-top: 8px;
+        }
+
         /* FOOTER */
         .footer {
             text-align: center;
@@ -171,7 +177,6 @@
             padding: 10px;
         }
 
-        /* MOBILE */
         @media (max-width: 600px) {
 
             h1 {
@@ -249,7 +254,6 @@
             </div>
 
         </div>
-
 
         <!-- DREAM -->
         <div class="dream-box">
@@ -345,6 +349,18 @@
 
         <p class="show-name">
             Off Campus
+        </p>
+
+    </div>
+
+
+    <!-- FAVORITE GAME -->
+    <div class="card game">
+
+        <h2>🎮 Favorite Game</h2>
+
+        <p class="game-name">
+            PUBG
         </p>
 
     </div>
